@@ -15,8 +15,9 @@
   }
 
 body {
-    
+    text-align: center;
     background-color: #ffefdaf2;
+
 }
 .form input{
     margin: 0 auto;
@@ -32,12 +33,12 @@ body {
     margin-right: auto;
     border-radius: 10px;
     padding: 3px 10px 3px 10px;
-    width: 100%;
+    width: 120%;
 }
 
 .h2{
-   align-items: center;
-   justify-content: center;
+    text-align: center;
+    font-weight: bold;
 
 }
 
@@ -54,5 +55,9 @@ body {
 }
 
 .botao input{
-   background-color:#ffefdaf2;
+   background-color:#d17a22;
+}
+
+.h3{
+    
 }
