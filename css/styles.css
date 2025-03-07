@@ -8,7 +8,7 @@
     flex-direction: column;
     text-align: center;
 
-  background-color: #afafaf;
+  background-color: #f5c68d;
   border-radius: 15px;
   border: black solid 2px;
   padding: 10px;
@@ -43,9 +43,16 @@ body {
 
 .form div{
     margin: 0 auto;
-    width: 80%;
+    width: 50%;
+}
+.p7{
+    
+    background-color: rebeccapurple;
+    padding: 1000px ;
+    border-radius: 100px;
+  
 }
 
-.centerdiv {
-    border: black solid 2px;
+.botao input{
+   background-color:#ffefdaf2;
 }

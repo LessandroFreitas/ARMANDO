@@ -17,39 +17,45 @@
     <h2>FAÇA SUA RESERVA.</h2>
 
     <form class="form">
-      <div>
+      <div><br>
         <label for="fname">Nome:</label><br>
         <input type="text" id="fname" name="fname" placeholder="Digite seu nome"><br>
       </div>
 
       <div class="centerdiv">
-        <div>
+        <div><br>
           <label for="CPF">CPF:</label>
           <input type="text" id="CPF" name="CPF" placeholder="Digite seu CPF">
 
         </div>
 
-        <div>
+        <div class="unidadediv"><br>
           <label for="name">Selecione a unidade</label>
           <select name="pergunta7" id="p7">
             <option value="id">Campina Grande</option>
             <option value="type">João Pessoa</option>
             <option value="placeholder">Natal</option>
-          </select> <br><br>
+          </select> <br>
         </div>
 
-        <div>
+        <div><br>
           <label for="date">Selecione a data</label><br>
           <input id="date" type="date" /><br>
         </div>
+
+        <div><br>
+          <label for="hora">Selecione o horário</label><br>
+          <input id="hora" type="time" min="10:00" max="21:00" required><br>
+        </div>
+        
         <p>Aberto de <time>10:00</time> as <time>21:00</time> todo dia.</p>
-
-
-        <input type="submit" value="Reservar">
+      
+        <div class="botao"><br>
+          <input type="submit" value="RESERVAR">
+          </div>
     </form>
 
     <p>Ao clicar em "Reservar", você confirmará a sua reserva para a unidade selecionada.</p>
 
   </body>
-
   </html>
